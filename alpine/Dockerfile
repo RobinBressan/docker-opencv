@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-glibc:latest
+FROM frolvlad/alpine-glibc:alpine-3.8_glibc-2.27
 
 ARG RUNTIME_DEPS='libpng libjpeg-turbo libwebp tiff openexr jasper openblas zlib'
 ARG BUILD_DEPS='wget unzip cmake build-base python linux-headers libpng-dev libjpeg-turbo-dev libwebp-dev tiff-dev openexr-dev jasper-dev openblas-dev zlib-dev'
